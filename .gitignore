@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Local databases and real-data exports
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+data/
+exports/
+oulad_raw/
+private_do_not_publish/
+*PRIVATE*
+**/assignments.csv
+**/case_results.csv
+**/controlled_eval_cohort.json
+**/*_export.json
+**/*_rebuilt_export.json
+**/dashboard_parity_fixtures.json
+
+# Archived packages containing individual-level research data
+/Codes and Database.zip
+/EngageTrace_Rebuilt_Database.zip
+/EngageTrace_Development_Recovery_PRIVATE*.zip
+/EngageTrace_Experiment_Verification_Package.zip
+/EngageTrace_Validation_Package.zip
+/EngageTrace_Dashboard_Checked_Source.zip
